@@ -1,6 +1,6 @@
 packages:
-  - 'demo/**'
+  - 'demo'
 allowBuilds:
   '@parcel/watcher': false
   esbuild: false
-  sharp: false
+  sharp: true

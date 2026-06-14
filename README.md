@@ -1,5 +1,5 @@
 > [!Note]
-> Project moved to [SourceHut](https://git.sr.ht/~ayoayco/astro-github-stats)
+> Project is now Archived and not maintained.
 
 # Astro GitHub Stats ✨
 
@@ -28,7 +28,7 @@ Then use on your Astro page:
 
 ```astro
 ---
-import GithubStats from 'astro-github-stats';
+import GithubStats from 'astro-github-stats'
 ---
 
 <!-- show your account stats -->
@@ -53,7 +53,6 @@ Example Account Card:
 Example Account Card with Icons:
 
 <img width="505" alt="Screen Shot 2022-09-30 at 10 59 39 PM" src="https://user-images.githubusercontent.com/4262489/193355585-c5c7b1c3-6682-4157-a013-94f8a5a21a20.png">
-
 
 Example Account Top Languages:
 

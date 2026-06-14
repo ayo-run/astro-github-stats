@@ -23,12 +23,10 @@
     "ui"
   ],
   "scripts": {
-    "start": "npm run dev -w demo",
-    "dev": "npm run dev -w demo",
+    "start": "cd demo && npm start",
     "format": "prettier . --write",
     "lint": "eslint . --config eslint.config.mjs",
     "build": "tsc",
-    "demo": "npm run dev -w demo",
     "prepare": "husky"
   },
   "devDependencies": {
@@ -51,7 +49,7 @@
     "typescript-eslint": "^8.18.2"
   },
   "peerDependencies": {
-    "astro": ">=5.0.0"
+    "astro": ">=6.0.0"
   },
   "license": "ISC"
 }
