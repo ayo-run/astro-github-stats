@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config'
 // https://astro.build/config
 export default defineConfig({
 	image: {
-		// domains: ['github-readme-stats.vercel.app'],
+		domains: ['github-readme-stats.vercel.app'],
 	},
 })
