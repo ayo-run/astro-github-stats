@@ -2,7 +2,7 @@ import globals from 'globals'
 import eslintPluginAstro from 'eslint-plugin-astro'
 import jsPlugin from '@eslint/js'
 import tseslint from 'typescript-eslint'
-import astroParser from 'astro-eslint-parser'
+import * as astroParser from 'astro-eslint-parser'
 
 export default [
 	{
@@ -20,9 +20,9 @@ export default [
 	...eslintPluginAstro.configs['jsx-a11y-recommended'],
 	{
 		ignores: [
-			'dist/*',
-			'.output/*',
-			'.astro/*',
+			'**/dist/*',
+			'**/.output/*',
+			'**/.astro/*',
 			'site/*',
 			'templates/*',
 			'**/node_modules/*',

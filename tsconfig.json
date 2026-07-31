@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "module": "ESNext",
     "allowJs": true,
     "noEmit": true
   },
-  "include": ["index.ts", "src"]
+  "include": ["astro.d.ts", "index.ts", "src"]
 }

@@ -1,5 +1,15 @@
-> [!Note]
-> Project is now Archived and not maintained.
+> [!WARNING]
+> **This package is deprecated and no longer maintained.**
+>
+> `0.8.1` is the final release. The project is archived: no further releases,
+> bug fixes, or security updates will be published, and issues and pull
+> requests are not being accepted.
+>
+> The component is a thin wrapper around
+> [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) —
+> if you still need this, the few lines in
+> [`src/GithubStats.astro`](./src/GithubStats.astro) are yours to copy into your
+> own project.
 
 # Astro GitHub Stats ✨
 
@@ -62,11 +72,8 @@ Example Repo Card:
 
 ![Screen Shot 2022-09-27 at 3 51 15 PM](https://user-images.githubusercontent.com/4262489/192545079-c602944c-6843-427a-b810-832973e6782c.png)
 
-# Future plans
+# Background
 
-Initially this is a wrapper for [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) supporting the basic github account stats card. Other features can be supported later, depending on demand:
+This is a wrapper for [github-readme-stats](https://github.com/anuraghazra/github-readme-stats), supporting the basic GitHub account stats card, account top languages, and repository cards. Themes were never implemented and now never will be.
 
-1. themes
-1. account top languages
-
-_Please report issues found or suggestions in the [project issues page](https://github.com/ayoayco/astro-github-stats/issues)_
+_This project is no longer maintained; issues and suggestions are not being accepted._
